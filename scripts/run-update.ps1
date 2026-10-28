@@ -1,4 +1,4 @@
-# 주 1회(월요일 새벽 3시 KST) 이 PC 의 작업 스케줄러가 실행한다.
+﻿# 주 1회(월요일 새벽 3시 KST) 이 PC 의 작업 스케줄러가 실행한다.
 # CPAAD 가 해외(GitHub 서버) 접속을 막아서 GitHub Actions 대신 여기서 수집해 push 한다.
 $ErrorActionPreference = 'Continue'
 Set-Location (Join-Path $PSScriptRoot '..')
