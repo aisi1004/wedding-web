@@ -1,0 +1,23 @@
+{
+  "_설명": "이 파일은 예시입니다. 실제 배너는 banners.json 에 넣으세요.",
+  "banners": [
+    {
+      "id": "misang-1",
+      "img": "https://wedding.imeji.com/img/banners/misang-1.jpg",
+      "link": "https://play.google.com/store/apps/details?id=com.imeji.misang",
+      "alt": "등급 미상 - 실력을 숨기는 3분 게임",
+      "label": "추천",
+      "tabs": ["home", "list", "budget", "quote", "fair"],
+      "start": "2026-11-01",
+      "end": "2026-12-31",
+      "weight": 1
+    },
+    {
+      "id": "go-fair",
+      "img": "https://wedding.imeji.com/img/banners/go-fair.jpg",
+      "link": "tab:fair",
+      "alt": "이번 달 박람회 보러 가기",
+      "tabs": ["home", "list"]
+    }
+  ]
+}
