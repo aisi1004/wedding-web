@@ -1,3 +1,81 @@
-<!doctype html><meta charset="utf-8"><title>웨딩박람회 일정 모음 데이터</title>
-<p>웨딩박람회 일정 모음 앱의 일정 데이터입니다. <a href="data/fairs.json">fairs.json</a></p>
-<p><a href="privacy.html">개인정보처리방침</a></p>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>웨딩박람회 일정 모음 - 전국 웨딩박람회 일정과 결혼 준비 체크리스트</title>
+<meta name="description" content="전국 웨딩박람회 일정을 지역·월별로 한눈에 보고, 결혼 준비 체크리스트 105가지·예산·견적·D-day 위젯까지 한 앱에서.">
+<meta property="og:title" content="웨딩박람회 일정 모음">
+<meta property="og:description" content="전국 웨딩박람회 일정 + 결혼 준비 체크리스트 + 예산 + D-day 위젯">
+<meta property="og:image" content="https://wedding.imeji.com/img/feature.jpg">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#faf6f4;--card:#fff;--ink:#2b2325;--sub:#8a7f82;--pt:#c9667a;--pt2:#fbe6ea;--line:#eee4e6}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1719;--card:#272123;--ink:#f3eceb;--sub:#a99da0;--pt:#e68a9c;--pt2:#3b2a2f;--line:#3a3033}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:0 18px}
+header{padding:48px 0 28px;text-align:center}
+header img.ic{width:112px;height:112px;border-radius:26px;box-shadow:0 6px 20px #c9667a33}
+h1{font-size:30px;margin:18px 0 6px}
+.tag{color:var(--sub);font-size:18px;margin:0 0 24px}
+.btn{display:inline-block;background:var(--pt);color:#fff;text-decoration:none;font-weight:700;border-radius:14px;padding:14px 28px}
+.btn.ghost{background:var(--pt2);color:var(--pt);margin-left:8px}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:8px 18px 22px;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.shots img{height:520px;border-radius:22px;border:1px solid var(--line);box-shadow:0 6px 18px #0002;scroll-snap-align:center;flex:none}
+h2{font-size:21px;margin:40px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.card b{display:block;margin-bottom:4px}
+.card span{color:var(--sub);font-size:15px}
+.note{color:var(--sub);font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:28px}
+footer{padding:36px 0 60px;text-align:center;color:var(--sub);font-size:14px}
+footer a{color:var(--pt)}
+@media (max-width:520px){h1{font-size:25px}.shots img{height:440px}.btn.ghost{margin:10px 0 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <img class="ic" src="img/icon.png" alt="웨딩박람회 일정 모음 앱 아이콘">
+  <h1>웨딩박람회 일정 모음</h1>
+  <p class="tag">전국 웨딩박람회 일정부터 결혼 준비까지, 한 앱에서</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.imeji.wedding">Google Play에서 받기</a>
+</header>
+</div>
+
+<div class="shots" aria-label="앱 화면">
+  <img src="img/01_fairs.jpg" alt="전국 웨딩박람회 일정 목록" loading="lazy">
+  <img src="img/02_myfairs.jpg" alt="관심 박람회와 지도 보기" loading="lazy">
+  <img src="img/03_checklist.jpg" alt="결혼 준비 체크리스트" loading="lazy">
+  <img src="img/04_home.jpg" alt="D-day와 할 일" loading="lazy">
+  <img src="img/05_budget.jpg" alt="예산과 결제 일정" loading="lazy">
+  <img src="img/06_quote.jpg" alt="업체 견적 비교" loading="lazy">
+  <img src="img/07_widget.jpg" alt="홈 화면 D-day 위젯" loading="lazy">
+</div>
+
+<div class="wrap">
+  <h2>이런 걸 할 수 있어요</h2>
+  <div class="grid">
+    <div class="card"><b>🎪 전국 박람회 일정</b><span>날짜가 가까운 순으로, 지역·월별로 골라 보고 [홈페이지 방문하기]로 바로 신청 페이지로 이동해요.</span></div>
+    <div class="card"><b>📍 지도 보기</b><span>박람회장 위치를 카카오맵·네이버지도·구글지도 중 원하는 앱으로 열어요.</span></div>
+    <div class="card"><b>✅ 체크리스트 105가지</b><span>상견례부터 신혼집, 스드메, 청첩장, 혼인신고까지 분류별·시기별로 정리했고, 나만의 항목도 추가할 수 있어요.</span></div>
+    <div class="card"><b>⏰ D-day와 알림</b><span>예식일만 입력하면 할 일 기한이 자동으로 맞춰지고, 앱에서 알림을 받을 수 있어요.</span></div>
+    <div class="card"><b>💰 예산·견적</b><span>항목별 예산, 계약금·잔금 일정, 업체별 견적과 박람회 혜택 마감일을 기록해요.</span></div>
+    <div class="card"><b>📱 홈 화면 위젯</b><span>예식일까지 남은 날짜를 홈 화면에서 바로 확인하고, 색과 크기를 바꿀 수 있어요.</span></div>
+  </div>
+
+  <div class="note">
+    <b>알려드려요</b><br>
+    · 입력한 이름·예식일·체크 상태 등은 <b>기기에만 저장</b>되고 서버로 전송되지 않아요.<br>
+    · 박람회 [홈페이지 방문하기] 링크는 제휴 링크예요. 이 링크로 신청하면 앱 운영자에게 수익이 생길 수 있지만, 가격이나 혜택에는 영향이 없어요.<br>
+    · 박람회 일정은 공개된 정보를 모아 보여드리며, 변경될 수 있으니 신청 전에 각 박람회 페이지에서 확인해 주세요.
+  </div>
+</div>
+
+<footer>
+  <a href="privacy.html">개인정보처리방침</a> · 문의 imejikr@gmail.com<br>
+  © 웨딩박람회 일정 모음
+</footer>
+</body>
+</html>
