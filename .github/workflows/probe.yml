@@ -1,0 +1,14 @@
+name: probe-cpaad
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          echo "runner ip: $(curl -s -m 10 https://ifconfig.me)"
+          getent ahosts ad.cpaad.co.kr | head -3
+          for u in http://ad.cpaad.co.kr/wedunited01drc/imeji https://ad.cpaad.co.kr/wedunited01drc/imeji https://cpaad.co.kr/ https://www.google.com/ ; do
+            echo "== $u"
+            curl -s -o /dev/null -m 15 -A "Mozilla/5.0" -w "code=%{http_code} ip=%{remote_ip} time=%{time_total}\n" "$u" || echo "curl exit $?"
+          done
